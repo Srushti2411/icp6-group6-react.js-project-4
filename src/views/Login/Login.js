@@ -2,7 +2,9 @@ import React from 'react'
 import './Login.css'
 function Login() {
   return (
-    <div>Login</div>
+    <div>
+      <h1 className='Main-Container'>login page</h1>
+    </div>
   )
 }
 
