@@ -9,6 +9,7 @@ import Food from './views/Food/Food';
 import Feeback from './views/Feeback/Feeback';
 import Meal from './views/Meal/Meal';
 import Login from './views/Login/Login';
+import Register from './views/Register/Register';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
         path: "/login",
         element: <Login/>
      },
+     {
+        path: "/register",
+        element: <Register/>
+    },
 
     {
         path: "*",
